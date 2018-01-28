@@ -1,0 +1,75 @@
+{
+    "lang_version": 2,
+    "lang_revision": "dev0",
+    "lang_name": "Polish",
+    "lang_short": "pl_PL",
+    "shared": {
+        "errorGeneric": "UPS! Coś poszło nie tak.",
+        "errorNoPermission": "Nie masz uprawnień do tego.",
+        "errorConfigNotFound": "Coś poszło nie tak podczas pobierania tej konfiguracji.",
+        "configFlushed": "Cache fow server $1 flushed.",
+        "errorShutdownGrace": "Niestety, nie możesz teraz wykonać tej czynności. Spróbuj ponownie za minutę lub dwie."
+    },
+    "channel": {
+        "dataFetching": ":black_circle: Pobieranie danych ...",
+        "dataCreating": ":black_circle: Tworzenie pokoju ...",
+        "roomCreated": ":large_blue_circle: Pokoj gotowy",
+        "roomAlreadyExists": ":warning: Masz już gdzieś swój pokój! :< ",
+        "roomRevoked":          ":large_blue_circle: Pokój usunięty!",
+        "roomRevokedInactive":  "Twój kanał został usunięty z powodu braku aktywności.`$1`",
+        "roomName":             "Pokój prywatny [$1]",
+        "roomErrorDisabled":    "Pokoje prywatne są wyłączone na tym serwerze.",
+        "roomErrorLimit":       "Niestety, nie możesz teraz utworzyć prywatnego pokoju.",
+        "roomErrorNotAllowed":  "Obecnie nie możesz utworzyć pokoju.",
+
+        "roomRenamed":          "Pokój zmieniony na: `$1`",
+        "roomRenameDisabled":   "Nie można zmienić nazwy pokoju na tym serwerze.",
+        "roomNoNameSpecified":  "Musisz podać nazwę!",
+
+        "revokeComplete":       ":cyclone: Kanał usunięto!",
+        "revokeError":          ":no_good: Coś poszło nie tak podczas usuwania pokoju.",
+        "revokeNotGuild":        "Możesz odwołać swój pokój tylko z serwera.",
+        "revokeNoRoom":         ":warning: Nie masz pokoju!",
+
+        "roomUserAdded":        "Dodano $1 do twojego pokoju.",
+        "roomUserRemoved":      "Usunięto $1 z twojego pokoju.",
+        "roomUserBlocked":      "Zablokowano $1 na twoim pokoju.",
+        "roomNoAdded":			"Nie wprowadzono żadnych zmian.",
+        "roomMadePublic":       "Każdy może teraz dołączyć do twojego pokoju.",
+        "roomNotPublic":        "Tylko dodani członkowie mogą teraz dołączyć do twojego pokoju.",
+
+        "userWhitelistAdd":     "$1 jest teraz na liście.",
+        "userWhitelistRevoke":  "$1 nie jest już na liście.",
+        "userWhitelistReset":   "Twoja lista została usunięta.",
+        "userBlacklistAdd":     "$1 jest zablokowany.",
+        "userBlacklistRevoke":  "$1 nie jest już zablokowany.",
+        "userBlacklistReset":   "Lista zablokowanych została usunięta.",
+
+        "errorRoomsDisabled":   "Pokoje prywatne są wyłączone na tym serwerze.",
+        "errorNotGuild":        "Pokoje można stwarzyć tylko na serwerze."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Musisz podać prawidłowy link!",
+        "MusicNovoiceCon":      ":warning: Musisz być w kanale głosowym!",
+        "MusicNoPermission":    "Nie możesz tego zrobić.",
+
+        "MusicDifferentChannel":"Nie możesz głosować na pominięcie, nie będąc w kanale.",
+        "MusicVoteProgress":    "Głosowałeś, aby pominąć klip `$1`",
+        "MusicVoteAlreadyVoted":"Głosowałeś, aby pominąć klip `$1`",
+        "MusicVoteCompleted":   "Bieżąca piosenka została pominięta. `$1`",
+
+        "MusicAddedToQueue":    "Dodano `$1` do listy.",
+        "MusicNowPlaying":      "Teraz gra",
+        "MusicRequestedBy":     "Żądany przez",
+        "MusicVideoLength":     "Długość",
+
+        "errorGeneric":         "Coś poszło nie tak.",
+        "errorConfigNotFound":  "Coś poszło nie tak podczas pobierania tej konfiguracji.",
+        "errorMusicDisabled":   "Pokoje muzyczne są wyłączone dla tej grupy.",
+        "errorNotGuild":        "Muzykę można odtwarzać tylko z grupy."
+
+    }
+
+}
